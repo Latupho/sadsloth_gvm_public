@@ -56,13 +56,13 @@ export PKG_CONFIG_PATH=/opt/gvm/lib/pkgconfig:$PKG_CONFIG_PATH
 ### Download stuff
 
 ```
-git clone -b gvm-libs-20.08 --single-branch  https://github.com/greenbone/gvm-libs.git ;\
-git clone -b openvas-20.08 --single-branch https://github.com/greenbone/openvas.git ;\
-git clone -b gvmd-20.08 --single-branch https://github.com/greenbone/gvmd.git ;\
-git clone -b master --single-branch https://github.com/greenbone/openvas-smb.git ;\
-git clone -b gsa-20.08 --single-branch https://github.com/greenbone/gsa.git ;\
-git clone -b ospd-openvas-20.08 --single-branch  https://github.com/greenbone/ospd-openvas.git ;\
-git clone -b ospd-20.08 --single-branch https://github.com/greenbone/ospd.git
+git clone --branch v20.8.4 --single-branch https://github.com/greenbone/gvm-libs.git ;\
+git clone --branch v20.8.3 --single-branch https://github.com/greenbone/openvas.git ;\
+git clone --branch v20.8.3 --single-branch https://github.com/greenbone/gvmd.git ;\
+git clone --branch main --single-branch https://github.com/greenbone/openvas-smb.git ;\
+git clone --branch v20.8.1 --single-branch https://github.com/greenbone/gsa.git ;\
+git clone --branch v20.8.3 --single-branch https://github.com/greenbone/ospd-openvas.git ;\
+git clone --branch v20.8.3 --single-branch https://github.com/greenbone/ospd.git
 ```
 
 ### install gvm-libs
