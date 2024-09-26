@@ -27,6 +27,13 @@ sudo apt update ;\
 sudo apt -y install yarn
 ```
 
+### Creating GVM folder
+
+```
+sudo mkdir /run/gvm
+sudo chown gvm. /run/gvm
+```
+
 ### create user
 
 ```
