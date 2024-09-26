@@ -113,6 +113,14 @@ cd openvas ;\
  cd /opt/gvm/src
 ```
 
+### Create a few more folders, as the user gvm
+
+```
+mkdir -p /opt/gvm/var/run/
+chown gvm:gvm /opt/gvm/var/run/
+
+```
+
 ### Fix redis for default openvas install
 
 **Here be dragons**  
